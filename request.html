@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foodar Submit a Request</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+</head>
+<body>
+	<header>
+		<div class="logos">
+			<a href="index.html"><img src="images/logo.png" /></a>
+		</div>
+	</header>
+	
+	<section id="register" class="container">
+		<div class="heading">
+			<h3 class="heading-text">Request</h3>
+			<div class="underline"></div>
+			
+		</div>
+		<div class="wrapper width-60">
+			<p>Please fill out the form below:</p>
+			<form action="#" id="form">
+				<div class="form-group">
+					<h5>Email:</h5>
+					<div>
+					<input class="name-input" type="email" name="email" placeholder="Email"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<h5>Restaurant</h5>
+					<div>
+						<input class="name-input" type="text" name="restaurant" placeholder="Restaurant" />
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="form-group">
+					<h5>Choose Your Style:</h5>
+					<div class="inline-radio">
+						<label for="style">Classic</label>
+						<input class="food-style" type="radio" name="style" value="3"/>
+					</div>
+					<div class="inline-radio">
+						<label for="style">Premium</label>
+						<input class="food-style" type="radio" name="style" value="5"/>
+					</div>
+					<div class="inline-radio">
+						<label for="style">Royal</label>
+						<input class="food-style" type="radio" name="style" value="10"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<h5>Add Tip:</h5>
+					<div class="inline-radio">
+						<label for="style">10%</label>
+						<input class="food-tip" type="radio" name="tip"  value="10"/>
+					</div>
+					<div class="inline-radio">
+						<label for="style">15%</label>
+						<input class="food-tip" type="radio" name="tip"  value="15"/>
+					</div>
+					<div class="inline-radio">
+						<label for="style">20%</label>
+						<input class="food-tip" type="radio" name="tip"  value="20"/>
+					</div>
+				</div>
+				<div class="total">
+					<h5>Total: $<span id="total"></span></h5>
+					
+					<input type="submit" class="rinp-btn" value="REQUEST" />
+				</div>
+				<div class="clear"></div>
+			</form>
+			
+		</div>
+		<div class="clear"></div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h3>Site Map</h3>
+				</div>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="about.html">How it All Works</a></li>
+				</ul>
+			</div>
+			<div id="sitemap" class="foot-menu">
+				<div class="foot-title">
+					<h3>Legal</h3>
+				</div>
+				<ul>
+					<li>Privacy Policy</li>
+					<li>Terms & Conditions</li>
+				</ul>
+			</div>
+            <div id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h3>One cannot think well, love well, sleep well, if one has not dined well:)</h3>
+				</div>
+			</div>
+           <div class="clear"></div>
+		</div>
+
+		<section class="copy">
+			<p>&copy; 2015. All rights reserved. </p>
+			<p class="small">Version 1.0.9</p>
+			<br />
+		
+			<br />
+		</section>
+	</footer>
+	
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="totals.js"></script>
+</body>
+</html>

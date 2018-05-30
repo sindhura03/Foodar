@@ -1,0 +1,640 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+	height: 100%;
+}
+
+section {
+	color: black;
+}
+
+section.container {
+	min-height: 100%;
+}
+
+footer {
+	padding: 3em;
+    background: #202020;
+	color: white;
+}
+
+footer article {
+	color: white;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+header {
+	position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255,0.25);
+}
+
+a input{cursor: pointer;}
+
+a, input, button {
+
+  outline: none;
+}
+
+#feature-image {
+	width: 100%;
+	height: 100%;
+	background: url("../images/03.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+#feature-image img {
+	width: 100%;
+	height: 100%;
+}
+
+#feature-image h1 {
+	margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40pt;
+    padding: 2em;
+    text-shadow: 4px 4px 4px red;
+}
+
+.width-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.underline {
+	height: 3px;
+	background: #eaeaea;
+}
+
+.logos{
+	width:20%;
+	float: left;
+}
+.menu{
+	width:25%;
+	float: right;
+}
+
+.menu ul{
+	margin: 24px 10px;
+}
+
+.menu ul li {
+	list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: blue;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.heading{
+	text-align: center;
+}
+
+
+.heading-text{
+	font-family: "Comic Sans MS",sans-serif, cursive;
+	color: #ccad52;
+	font-size: 50px;
+    letter-spacing: 9px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+    line-height: 36px;  
+}
+
+.clear{
+	clear: both;
+}
+
+.card-container {
+  height:368px;
+  perspective: 600;
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 19px;
+  cursor: pointer;
+}
+
+.back p {
+	padding: 100px 30px 10px 30px;
+    text-align: center;
+}
+
+.menu-title{
+	text-align:center;color:#000;
+}
+
+.fd-menu {
+	margin-top: 20px;
+	
+}
+
+.men {
+	width: 100%;
+	float: left;
+	border-radius: 50%;
+
+}
+ .men .side img{
+	width: 100%;
+	border:2px solid #c33a03;
+	border-radius: 50%;
+}
+
+#about .center{
+    position: relative;
+    top: 2em;
+    font-size: 36pt;
+    font-weight: 800;
+}
+
+#home {
+	background: url("../images/road-traffic-car-business.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	color: white;
+}
+
+#request-form {
+	  padding: 2em;
+    border-radius: 5px;
+}
+
+#sitemap {
+  margin-right: 3px;
+}
+
+ul {
+	list-style: none;
+}
+
+#sitemap ul li, #sitemap a {
+	text-decoration: none;
+	color: white;
+}
+
+#sitemap a:hover {
+	color: #F7A700;
+}
+
+.inp-grp{
+  width:290px;margin:0 auto;
+}
+
+.inp-wd{
+  width: 217px;
+}
+
+#yourCity input {
+    padding: 9px;
+    font-size: 14pt;
+    color: #00006B;
+	border: 2px solid #D69000;
+}
+#yourCity p {
+  text-align: center;
+}
+#yourCity input[type="submit"] {
+    background: #f7a700;
+    border: 2px solid #D08C00;
+    position: relative;
+    color: white;
+    font-family: 'PT Sans', sans sans-serif;
+	cursor: pointer;
+}
+
+.how-in-img {
+  width:33%;
+  float:left;
+}
+.how-in-img img {
+  height:350px;
+}
+.how-in-txt{
+  width:50%;float:left;
+}
+
+.float-wrapper {
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.restaurant {
+	float: left;
+	width: 33%;
+	padding: 1em;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.restaurant img {
+	border-radius: 2em;
+}
+
+.sitemap {
+  width:33%;
+  float:left;
+}
+
+.sitemap ul {
+  margin:40px 30px 30px 0px;
+  padding:0px;
+}
+.sitemap ul li {
+  margin: 10px 0px;
+}
+
+.foot-menu {
+  width:33%;
+  float:left;
+}
+
+.foot-menu ul {
+  margin:40px 30px 30px 0px;
+  padding:0px;
+}
+.foot-menu ul li {
+  margin: 10px 0px;
+}
+
+.copy{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.foot-title h3{
+  color: #fff;
+  text-shadow:none;
+
+}
+.foot-title:after{
+  content: "";
+    position: absolute;
+   
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #eaeaea;
+}
+.news{
+  margin: 40px 0px;
+    color: #fff;
+}
+.news-inp {
+  height: 30px;
+    padding-left: 5px;
+    border: 2px solid #5D5D5D;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+.news-btn{
+  height: 37px;
+    border: 1px solid #383838;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+     margin-top: 10px;
+}
+
+.findus{
+  background: url("../images/bg-aboutus.jpg");
+  background-attachment: fixed;
+  color:#fff;
+  //margin-bottom: 50px;
+  text-shadow: 1px 1px 10px red;
+}
+
+.findus h3 {
+  text-align: center;
+  text-shadow: 4px 4px 4px red;
+}
+
+.bold-sp{
+  color: #000;
+  font-weight: bold;
+}
+.mild-sp{
+  color: #787878;
+}
+.read-btn{
+	background-color: #000;
+    color: #fff;
+    padding: 17px 25px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    top: 1em;
+}
+
+.read-btn:hover{
+  background-color: #ccad52;
+  color:#fff;
+}
+
+
+.rs-on{
+  width:32%;background:#E2E2E2;margin: 150px 5px;float:left;min-height: 363px;
+}
+.rs-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto ;
+    display: block;
+    
+}
+.rs-img img {
+  margin-top:-100px;
+  border-radius: 50%;
+  border: 1px solid #CCAD52;
+}
+
+
+.how1 {
+  padding: 20px 20px 50px 20px;
+  text-align: center;
+}
+
+.how1 p{
+  color: #565656;
+}
+
+.form-group {
+	margin: 2em 0 0;
+}
+
+.form-group input {
+	display: block;
+    margin: 0.3em;
+    padding: 0.4em;
+    font-size: 14pt;
+}
+
+.center {
+	text-align: center;
+}
+
+.green {
+	color: green;
+}
+
+.logo {
+	font-size: 34pt;
+}
+
+.promo-banner {
+	color: white;
+	font-size: 11pt;
+	line-height: 20px;
+	padding: 1em 0;
+	width: 100%;
+	z-index: 15;
+	text-align: center;
+	font-weight: 800;
+	background: #3A4A48;
+}
+
+.logo {
+	position: absolute;
+	left: 100px;
+}
+
+.nav {
+	position: absolute;
+	right: 100px;
+}
+
+.r-input{
+  width:47%;
+  float: left;
+  padding: 15px;
+}
+
+.r-input input{
+  width:90%;
+  padding:20px;
+  font-size: 14px;
+  background: #f3f3f3;
+  border:1px solid #f3f3f3;
+  border-radius: 6px;
+}
+
+.rinp-btn{
+  background-color: #000;
+  color:#fff;
+  padding: 14px 25px !important;
+    border-radius: 6px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 20px !important;
+}
+.rinp-btn:hover{
+  background-color: #ccad52;
+  color:#fff;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #E8FF00;
+}
+
+.nav a:hover {
+	color: #F7A700;
+}
+
+.nav div {
+	display: inline-block;
+}
+
+.nav ul {
+	list-style: none;
+	display: inline-block;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.left {
+
+}
+
+.red {
+	color: red;
+}
+
+.right {
+    position: relative;
+    left: 75%;
+    display: block;
+    width: 25%;
+}
+
+.radio-collection input[type="radio"] {
+	width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 1em auto 0;
+}
+
+.name-input {
+	width: 90%;
+    padding: 20px;
+    font-size: 14px;
+    background: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    border-radius: 6px;
+}
+
+.inline-radio {
+	display: inline-block;
+    width: 30%;
+    background: lightgrey;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.inline-radio input {
+	margin: auto;
+}
+
+.radio-group {
+	
+    background: #CCAD52;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    vertical-align: top;
+    text-align: center;
+    width: 250px;
+    height: 138px;
+    margin-bottom: 10px;
+    font-size: 18pt;
+    border-radius: 20px;
+}
+
+.small {
+	font-size: 9pt;
+}
+
+.total {
+	padding: 3em;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.wrapper {
+	min-height: 240px;
+	padding: 3em;
+}
+
+.enroll-btn {
+    background-color: #ccad52;
+    color: #fff;
+    padding: 17px 25px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+	box-sizing: border-box;
+}
+.enroll-btn:hover {
+	background-color: #5288cc;
+}
+
+
+/* ------------- General ------------- */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@font-face {
+	font-family: "cs-ctrl-basic";
+	src: url("cs-ctrl-basic.eot");
+	src: url("cs-ctrl-basic.eot#iefix") format("embedded-opentype"),
+			url("cs-ctrl-basic.woff") format("woff"),
+			url("cs-ctrl-basic.ttf") format("truetype"),
+			url("cs-ctrl-basic.svg#basic") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.radio-group {
+    
+    margin-bottom: 10px;
+    
+}
+
+footer {
+    padding: 10px;
+    background: #202020;
+    color: white;
+}
+.card-container {
+    height: 368px;
+    perspective: 600;
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    cursor: pointer;
+}
+.how-in-img {
+    width: 34%;
+    float: left;
+    margin-right: 10px;
+}
+.how-in-txt {
+    width: 63%;
+    float: left;
+}
+.r-input {
+    width: 45%;
+    float: left;
+    padding: 15px;
+}
+.radio-group {
+    
+    width: 226px;
+    
+}
+.csslider1 > .cs_play_pause {
+    position: absolute;
+    top: 41%;
+    left: 15%;
+    z-index: 5;
+}
+}
